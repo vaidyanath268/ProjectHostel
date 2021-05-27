@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnerRegistration"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/backround">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION PAGE"
+        android:layout_marginTop="120dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/faster_one"
+        android:textColor="#2196F3"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="UserName" />
+    <EditText
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Address" />
+    <EditText
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password" />
+    <EditText
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Passward" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Gender"
+            android:textColor="#000"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        app:backgroundTint="#FFC107"
+        app:cornerRadius="40dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="If You Have Account!"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Login"
+            android:textColor="#EF0606"
+            android:id="@+id/logg"/>
+    </LinearLayout>
+
+</LinearLayout>
