@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708072829008",
+    "project_id": "hostelmangement-462cf",
+    "storage_bucket": "hostelmangement-462cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708072829008:android:be43e3b611dc2ff8bfe155",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708072829008-cjd1i1ees7d81fu0ghjo31bnbu6b5rj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu7ScPFBvOMP_hy3jq284AmyOBOp64CyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708072829008-cjd1i1ees7d81fu0ghjo31bnbu6b5rj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
